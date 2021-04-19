@@ -1,0 +1,46 @@
+body {   
+    margin:auto;
+
+}
+
+.index{
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+    margin: 8em auto;
+    display: block;
+}
+
+a{
+	color:#000000;
+    font-size: 30px;
+	text-decoration: none;
+}
+
+#user{
+	display: inline-block;
+}
+
+#verticalLine {
+	display: inline-block;
+	margin-left: 20px;
+    border-left: solid #070c27;
+}
+
+#admin-link{
+	margin-left: 20px;
+}
+
+#user, #admin
+{
+	transition: all .2s ease-in-out;
+}
+
+#user:hover, #admin:hover
+{
+	transform: scale(1.1);
+}
+
+img{
+  width: 100%;
+}
