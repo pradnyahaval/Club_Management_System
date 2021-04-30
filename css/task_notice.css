@@ -1,0 +1,49 @@
+/*To create task and noice*/
+.wrapper .main_containt{
+    margin-left: 280px;
+    height: auto;
+    position: relative;
+}
+
+.wrapper .main_containt .create_task{
+    margin-left: 20%;
+    margin-right: 20%;
+    width: auto;
+    border: 2px solid black;
+    padding:10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.wrapper .main_containt .create_task table{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.wrapper .main_containt .create_task table td{
+    padding:10px;
+    font-size: 18px;
+  }
+
+  .wrapper .main_containt .create_task .task_text{
+      width: 80%;
+      padding: 10px;
+      
+  }
+
+.wrapper .main_containt .create_task .add_btn{
+    font-size: 20px;
+    border: 2px solid #100068;
+    border-radius: 5px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.wrapper .main_containt .add_btn:hover {
+    border: 2px solid #00f83e;
+  }

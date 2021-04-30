@@ -1,7 +1,13 @@
 body {   
-    margin:auto;
-
+    /*background-image: url('../images/background_image.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;*/
+    background-color: black;
 }
+img {
+    opacity: 0.2;
+  }
 
 .index{
     width: 100%;
@@ -11,27 +17,27 @@ body {
     display: block;
 }
 
-a{
-	color:#000000;
+.index a{
+	color: white;
     font-size: 30px;
 	text-decoration: none;
 }
 
-#user{
+.index #user{
 	display: inline-block;
 }
 
-#verticalLine {
+.index #verticalLine {
 	display: inline-block;
 	margin-left: 20px;
     border-left: solid #070c27;
 }
 
-#admin-link{
+.index #admin-link{
 	margin-left: 20px;
 }
 
-#user, #admin
+.index #user, #admin
 {
 	transition: all .2s ease-in-out;
 }
@@ -41,6 +47,4 @@ a{
 	transform: scale(1.1);
 }
 
-img{
-  width: 100%;
-}
+
