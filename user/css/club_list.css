@@ -1,0 +1,30 @@
+.wrapper .main_containt{
+    margin-left: 280px;
+    height: auto;
+    position: relative;
+}
+
+.wrapper .main_containt .club_list{
+    margin-left: 5%;
+    margin-right: 5%;
+    width: auto;
+    padding:10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.wrapper .main_containt .club_list table{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.wrapper .main_containt .club_list table th, td{
+    padding:10px;
+    font-size: 18px;
+    border-bottom: 2px solid black;
+  }
+
+.wrapper .main_containt .club_list li{
+    list-style-type:none;
+}
