@@ -1,0 +1,67 @@
+.wrapper .main_containt{
+    margin-left: 280px;
+    height: auto;
+    position: relative;
+}
+
+.wrapper .main_containt .alloted{
+    margin-left: 20%;
+    margin-right: 20%;
+    width: auto;
+    border: 2px solid black;
+    padding:15px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.wrapper .main_containt .alloted .table1{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.wrapper .main_containt .alloted .table1 th{
+    border: 1px solid black;
+}
+
+.wrapper .main_containt .alloted .table1 td{
+    border: 1px solid black;
+}
+
+.wrapper .main_containt .requests{
+    margin-left: 5%;
+    margin-right: 5%;
+    width: auto;
+    padding:10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.wrapper .main_containt .requests .table2{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.wrapper .main_containt .requests .table2 th, td{
+    padding:12px;
+    font-size: 18px;
+    border-bottom: 2px solid black;
+}
+
+.wrapper .main_containt .requests .table2 .con_btn, .re_btn{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 8px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.wrapper .main_containt .requests .table2 .con_btn:hover {
+    background-color: #0ae414;
+}
+
+.wrapper .main_containt .requests .table2 .re_btn:hover {
+    background-color: #e4110a;
+}

@@ -1,0 +1,50 @@
+body {   
+    /*background-image: url('../images/background_image.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;*/
+    background-color: black;
+}
+img {
+    opacity: 0.2;
+  }
+
+.index{
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+    margin: 8em auto;
+    display: block;
+}
+
+.index a{
+	color: white;
+    font-size: 30px;
+	text-decoration: none;
+}
+
+.index #user{
+	display: inline-block;
+}
+
+.index #verticalLine {
+	display: inline-block;
+	margin-left: 20px;
+    border-left: solid #070c27;
+}
+
+.index #admin-link{
+	margin-left: 20px;
+}
+
+.index #user, #admin
+{
+	transition: all .2s ease-in-out;
+}
+
+#user:hover, #admin:hover
+{
+	transform: scale(1.1);
+}
+
+

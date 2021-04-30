@@ -1,0 +1,38 @@
+.wrapper .main_containt{
+    margin-left: 280px;
+    height: auto;
+    position: relative;
+}
+
+.wrapper .main_containt .request{
+    margin-left: 20%;
+    margin-right: 20%;
+    width: auto;
+    border: 2px solid black;
+    padding:10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.wrapper .main_containt .request input[type=text], input[type=date], input[type=time], textarea{
+    width: 50%;
+    padding:8px;
+    margin-bottom: 8px;
+    display: inline-block;
+    border: 1px solid black;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+.wrapper .main_containt .request .request_btn{
+    margin-top: 10px;
+    font-size: 18px;
+    background-color: white;
+    border: 2px solid #100068;
+    border-radius: 5px;
+    padding: 8px 25px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
